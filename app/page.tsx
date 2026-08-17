@@ -1,3 +1,4 @@
+import { Person } from "@/components/Person";
 import { Square, Circle } from "../components/Geo";
 
 const Page = () => {
@@ -7,6 +8,7 @@ const Page = () => {
 
       <Square />
       <Circle />
+      <Person name="Caio" age={28} roles={["Admin", "User"]} />
 
     </div>
   )
