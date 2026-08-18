@@ -4,7 +4,7 @@ const getWeekday = () => {
     }).format(new Date());
 }
 
-interface Person {
+type Person = {
     name: string;
     age: number;
     roles: string[];

@@ -9,6 +9,7 @@ const Page = () => {
       <Square />
       <Circle />
       <Person name="Caio" age={28} roles={["Admin", "User"]} />
+      <Person name="João" age={25} roles={["User"]} />
 
     </div>
   )
